@@ -1,0 +1,19 @@
+Inflator is a Reaver Command Generator.
+
+More about Reaver, please visit:
+https://code.google.com/p/reaver-wps
+http://sviehb.wordpress.com
+http://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf
+http://www.devttys0.com
+https://github.com/t6x/reaver-wps-fork-t6x
+
+ZhaoChunsheng Tianjin,China
+
+- - - - - -
+Changelog:
+
+2018-02-25 Inflator-1.1
+--- Open source; Support Reaver 1.63; Fixed some bugs.
+
+2012-01-21 Inflator-1.0
+--- Tip: The first version, build for Reaver v1.4, it can directly run in BackTrack 5 R1-Gnome-32bit with Reaver-1.4.
