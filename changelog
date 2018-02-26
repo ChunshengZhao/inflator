@@ -12,6 +12,9 @@ ZhaoChunsheng Tianjin,China
 - - - - - -
 Changelog:
 
+2018-02-26 Inflator-1.2
+--- Fixed a bug in the ScanAP() function.
+
 2018-02-25 Inflator-1.1
 --- Open source; Support Reaver 1.63; Fixed some bugs.
 

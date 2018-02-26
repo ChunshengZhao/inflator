@@ -163,7 +163,7 @@ else
         fclose(file_desc);
     }} {}
   Fl_Window {} {
-    label {Inflator 1.1(for Reaver v1.63)}
+    label {Inflator 1.2(for Reaver v1.63)}
     callback WinQuit_CallBack open
     xywh {656 113 575 360} type Double visible
   } {
@@ -239,7 +239,7 @@ else
         Fl_Button {} {
           label Inflator
           callback Box_About_CallBack
-          tooltip {Coded by ZhaoChunsheng (Tianjin, China) at 2018.02.25} xywh {23 324 96 30} box NO_BOX color 0 labelfont 5 labelcolor 232
+          tooltip {Coded by ZhaoChunsheng (Tianjin, China) at 2018.02.26} xywh {23 324 96 30} box NO_BOX color 0 labelfont 5 labelcolor 232
         }
       }
       Fl_Group {} {
@@ -927,6 +927,8 @@ if(Button_ScanAP->value()==1)
                         char item[6][33] = {{0}};
                         int i=0;
                         int APNum=0;
+                        
+                        memset(APInfo,0,sizeof(APInfo));
 
                         while(fgets(ReadLine,256,file_desc) && APNum!=128)
                             {
