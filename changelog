@@ -12,6 +12,9 @@ ZhaoChunsheng Tianjin,China
 - - - - - -
 Changelog:
 
+2018-02-27 Inflator-1.3
+--- Changed from "wash -o" to "wash >" in the ScanAP() function, Thanks to rofl0r.
+
 2018-02-26 Inflator-1.2
 --- Fixed a bug in the ScanAP() function.
 
