@@ -15,3 +15,8 @@ Build steps:
 #fluid -c inflator.fl  
 #fltk-config --compile inflator.cxx  
 #./inflator  
+
+
+Screenshots:
+
+![Screenshots](https://github.com/ChunshengZhao/inflator/blob/master/screenshots.png)
